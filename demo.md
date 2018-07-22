@@ -1,13 +1,12 @@
-# Buttons Test
-[Test Button](http://example.net){: .btn-blue}
-[Green Button](http://example.net){: .btn-green} [Blue Button](http://example.net){: .btn-blue} 
+# MS Dark Theme - Test Demo Page
 
-[Grey Button](http://example.net){: .btn-grey}
+## Buttons Test
+[Green Button](http://example.net){: .btn-green} [Blue Button](http://example.net){: .btn-blue} [Grey Button](http://example.net){: .btn-grey}
 
 #### [Header 4 Button](foo)
 
-# Image Test
-![test](https://raw.githubusercontent.com/benc-uk/microservices-demoapp/master/etc/architecture.png){: .framed .padded}
+## Framed Image Test
+![test](https://raw.githubusercontent.com/benc-uk/microservices-demoapp/master/etc/architecture.png){: .framed}
 
 # Header 1
 Text can be **bold**, _italic_, or ~~strikethrough~~.
