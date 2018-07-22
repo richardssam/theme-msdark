@@ -4,7 +4,7 @@ description: Dark MS Theme is a clean, responsive theme for GitHub Pages.
 #hide_github: true
 favicon: https://webiconspng.com/wp-content/uploads/2017/09/Microsoft-PNG-Image-83610.png
 buttons:
-  - name: Test Header Button
+  - text: Test Header Button
     href: http://example.net
-  - name: Cheese Goblin
+  - text: Cheese Goblin
     href: http://google.com

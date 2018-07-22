@@ -1,33 +1,56 @@
 # Dark MS Theme
-This is simple fork of the Cayman theme, modified with dark background and Microsoft fonts (Segoe UI) and colours
+This is simple fork of the Cayman theme, modified with dark background and Microsoft fonts (Segoe UI) and colours, plus some bonus features.
+
+## Usage
+Enable GitHub pages on your repo. Set the theme in `_config.yml` (in root of your repo) as follows:
+```
+remote_theme: benc-uk/theme-msdark
+```
 
 ## Features
 There are a few features and options beyond the basic Cayman theme
 
 ### Header Buttons
-You can modify the buttons in the site header with several settings in `_config.yml`
+You can modify the buttons shown in the site header via several settings in `_config.yml`
 
 `show_downloads: true/false` Show or hide download buttons. Default is hidden
 
 `hide_github: true/false` Show or hide link to GitHub repo page. Default is shown
 
-Array of custom buttons to show in the header can be set in `buttons:` The name of each button item isn't used, but properties `text` and `href` need to be supplied
+Array of custom buttons to show in the header can be set in `buttons:` Each button item needs two properties **name**, which is shown on the button, and **href** which is the link for the button 
 
 Example:
 ```
 buttons:
-  - btn1:
-    text: Test Button
+  - name: Test Header Button
     href: http://example.net
-  - blah:
-    text: Another Button
-    href: /foo/bar
+  - name: Blah Test
+    href: http://google.com
 ```
 
+### Favicon
+Set the URL of a PNG favicon for the site in `_config.yml`, e.g.
+```
+favicon: /assets/img/icon.png
+```
 
-### Buttons
-Foo
+### Custom CSS classes
+Several custom CSS classes are provided
+- `.btn-blue` - Convert link to a blue button
+- `.btn-green` - Convert link to a green button
+- `.btn-grey` - Convert link to a grey button
+- `.framed` - Add a frame around images
 
+To use these in Jekyll markdown use the special `{: .class}` annotation, which you can add after an element e.g.
+
+```
+[I Am A Button](docs/stuff.md){: .btn-blue}
+
+![framed image](/img/picture.png){: .framed}
+```
+
+> Note. Any h4 and h5 headings which are also links will automatically be converted to buttons. This enables you to use buttons without cluttering you markdown with extra annotations, e.g.  
+> `#### [Auto Button](http://example.net)`
 
 ## Demo
 
