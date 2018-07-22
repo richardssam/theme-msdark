@@ -9,15 +9,23 @@ $header-bg-color-secondary: #155799 !default;
 
 // Text
 $section-headings-color: #159957 !default;
-$body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
+$body-bg-color: #333 !default;
+$body-text-color: #eee !default;
+$body-link-color: rgb(0, 120, 215) !default;
 $blockquote-text-color: #819198 !default;
 
 // Code
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
+$code-bg-color: rgb(20, 20, 20) !default;
+$code-text-color: #d7e0e4 !default;
 
 // Borders
 $border-color: #dce6f0 !default;
 $table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
+$hr-border-color: #777 !default;
+
+$ms-blue: rgb(0, 120, 215) !default;
+$ms-lightblue: rgb(0, 188, 242) !default;
+$ms-darkblue: rgb(0, 24, 143) !default;
+$ms-lightgreen: rgb(186, 216, 10) !default;
+$ms-midgrey: #555 !default;
+$ms-vdarkgrey: #222 !default;

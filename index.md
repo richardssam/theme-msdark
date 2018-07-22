@@ -1,7 +1,15 @@
----
-layout: default
----
+# Buttons Test
+[Test Button](http://example.net){: .btn-blue}
+[Green Button](http://example.net){: .btn-green} [Blue Button](http://example.net){: .btn-blue} 
 
+[Grey Button](http://example.net){: .btn-grey}
+
+#### [Header 4 Button](foo)
+
+# Image Test
+![test](https://raw.githubusercontent.com/benc-uk/microservices-demoapp/master/etc/architecture.png){: .framed .padded}
+
+# Header 1
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -10,7 +18,6 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
@@ -21,6 +28,13 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 > When something is important enough, you do it even if the odds are not in your favor.
 
 ### Header 3
+
+Code preformatted blocks testing:  
+This will make your machine run super fast `$ rm -rf /` and run `docker pull foo/bar` then remember to do: `az group list -o table`
+```
+This is a code block without highlighting
+It's pretty plain
+```
 
 ```js
 // Javascript code with syntax highlighting.
