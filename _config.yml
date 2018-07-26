@@ -18,5 +18,5 @@ icon: fas fa-pencil-alt
 
 # Colour gradient for the header
 header-colours: 
-  - right: "#8a108c"
-  - left: "#cc580c"
+  right: "#8a108c"
+  left: "#cc580c"
