@@ -12,3 +12,6 @@ favicon: https://webiconspng.com/wp-content/uploads/2017/09/Microsoft-PNG-Image-
 buttons:
   - text: Test Header Button
     href: http://example.net
+
+# Icon shown in header. From Fontawesome https://fontawesome.com/icons?m=free
+icon: fas fa-poo
