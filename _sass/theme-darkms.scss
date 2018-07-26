@@ -302,9 +302,10 @@ a {
 
   blockquote {
     padding: 0 1rem;
-    margin-left: 0;
+    margin: 3rem;
     color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    background-color: $ms-lightgrey;
+    //border-left: 0.3rem solid $border-color;
 
     > :first-child {
       margin-top: 0;

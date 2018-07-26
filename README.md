@@ -34,6 +34,16 @@ A semi-translucent icon can be shown in the top right of the header. These icons
 icon: fas fa-comment-dots
 ```
 
+### Header Colours
+The default header colours are a gradient from light to dark blue, you can change these colours in the `_config.yml`, as follows:
+```
+header-colours: 
+  right: "#8a108c"
+  left: "#cc580c"
+```
+Note. Be careful to enclose any HTML colour hex codes (e.g. `#00ff00`) in double quotes otherwise they will be treated as a comment
+
+
 ### Favicon
 Set the URL of a PNG favicon for the site in `_config.yml`, e.g.
 ```
