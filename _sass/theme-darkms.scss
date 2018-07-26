@@ -130,6 +130,9 @@ a {
   float: right;
   right: 20px;
   top: 10px;
+  @include small {
+    display: none;
+  }
 }
 
 .project-name {
