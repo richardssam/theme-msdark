@@ -301,19 +301,19 @@ a {
   }
 
   blockquote {
-    padding: 0 1rem;
-    margin: 3rem;
+    padding: 0.5rem;
+    margin: 1rem;
     color: $blockquote-text-color;
     background-color: $ms-lightgrey;
-    //border-left: 0.3rem solid $border-color;
+    border: solid 2px $ms-midgrey;
 
-    > :first-child {
+    /*> :first-child {
       margin-top: 0;
     }
 
     > :last-child {
       margin-bottom: 0;
-    }
+    }*/
   }
 
   table {
