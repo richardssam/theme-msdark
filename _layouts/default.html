@@ -12,6 +12,11 @@
     {% if site.favicon %}
       <link rel="shortcut icon" href="{{ site.favicon }}" type="image/png">
     {% endif %}
+    {% if site.header-colours %}
+      <style>    
+        .page-header { background-image: linear-gradient(120deg, "{{ site.header-colours[0] }}", "{{ site.header-colours[1] }}") !important }
+      </style>
+    {% endif %}    
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -31,11 +36,6 @@
       {% endfor %}
       {% if site.icon %}
         <i id="header-icon" class="{{ site.icon }}"></i>
-      {% endif %}
-      {% if site.header-colours %}
-        <style>    
-          .page-header { background-image: linear-gradient(120deg, {{ site.header-colours[0] }}, {{ site.header-colours[1] }}) !important }
-        </style>
       {% endif %}
     </header>
 
