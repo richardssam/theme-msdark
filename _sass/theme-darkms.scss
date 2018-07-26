@@ -303,8 +303,8 @@ a {
   blockquote {
     padding: 0.5rem;
     margin: 1.5rem;
-    color: $blockquote-text-color;
-    background-color: $ms-lightgrey;
+    // color: $blockquote-text-color;
+    background-color: $ms-darkgrey;
     border: solid 2px $ms-midgrey;
 
     > :first-child {
