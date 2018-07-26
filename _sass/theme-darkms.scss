@@ -122,6 +122,15 @@ a {
   padding: 0.5rem;
 }
 
+#header-icon {
+  position: absolute
+  color: rgba(255,255,255,0.2)
+  font-size: 150px
+  float: right
+  right: 20px
+  top: 0px
+}
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;

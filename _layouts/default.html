@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% if site.favicon %}
       <link rel="shortcut icon" href="{{ site.favicon }}" type="image/png">
@@ -28,6 +29,7 @@
       {% for button in site.buttons %}
         <a href="{{ button.href }}" class="btn">{{ button.text }}</a>
       {% endfor %}
+      <i id="header-icon" class="far fa-cubes"></i>
     </header>
 
     <main id="content" class="main-content" role="main">
