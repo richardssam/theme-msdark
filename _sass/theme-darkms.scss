@@ -302,18 +302,18 @@ a {
 
   blockquote {
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 1.5rem;
     color: $blockquote-text-color;
     background-color: $ms-lightgrey;
     border: solid 2px $ms-midgrey;
 
-    /*> :first-child {
+    > :first-child {
       margin-top: 0;
     }
 
     > :last-child {
       margin-bottom: 0;
-    }*/
+    }
   }
 
   table {
