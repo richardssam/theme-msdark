@@ -28,6 +28,12 @@ buttons:
     href: http://google.com
 ```
 
+### Header Icon
+A semi-translucent icon can be shown in the top right of the header. These icons come from Font Awesome. You can get the [list of possible icons here](https://fontawesome.com/icons?d=gallery&m=free). This example below will show the [solid "comment-dots" icon](https://fontawesome.com/icons/comment-dots?style=solid) in the header
+```
+icon: fas fa-comment-dots
+```
+
 ### Favicon
 Set the URL of a PNG favicon for the site in `_config.yml`, e.g.
 ```

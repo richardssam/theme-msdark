@@ -15,3 +15,8 @@ buttons:
 
 # Icon shown in header. From Fontawesome https://fontawesome.com/icons?m=free
 icon: fas fa-pencil-alt
+
+# Colour gradient for the header
+header-colours: 
+  - #8a108c
+  - #cc580c

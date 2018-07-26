@@ -32,6 +32,11 @@
       {% if site.icon %}
         <i id="header-icon" class="{{ site.icon }}"></i>
       {% endif %}
+      {% if site.header-colours %}
+        <style>    
+          .page-header { background-image: linear-gradient(120deg, {{ site.header-colours[0] }}, {{ site.header-colours[1] }}) !important }
+        </style>
+      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
