@@ -17,14 +17,14 @@ You can modify the buttons shown in the site header via several settings in `_co
 
 `hide_github: true/false` Show or hide link to GitHub repo page. Default is shown
 
-Array of custom buttons to show in the header can be set in `buttons:` Each button item needs two properties **name**, which is shown on the button, and **href** which is the link for the button 
+Array of custom buttons to show in the header can be set in `buttons:` Each button item needs two properties **text**, which is shown on the button, and **href** which is the link for the button 
 
 Example:
 ```
 buttons:
-  - name: Test Header Button
+  - text: Test Header Button
     href: http://example.net
-  - name: Blah Test
+  - text: Blah Test
     href: http://google.com
 ```
 
