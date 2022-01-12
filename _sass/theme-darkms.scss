@@ -3,11 +3,13 @@
 @import "variables";
 @font-face {
   font-family: SegoeUI;
-  src:
-      local("Segoe UI"),
-      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
-      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
-      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+  src: local("Segoe UI"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf)
+      format("truetype");
   font-weight: 400;
 }
 
@@ -118,13 +120,13 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $ms-blue;
-  background-image: linear-gradient(120deg,  $ms-blue, $ms-darkblue);
+  background-image: linear-gradient(120deg, $ms-blue, $ms-darkblue);
   padding: 0.5rem;
   min-height: 11rem;
-  
+
   #header-icon {
     position: absolute;
-    color: rgba(255,255,255,0.2);
+    color: rgba(255, 255, 255, 0.2);
     font-size: 150px;
     float: right;
     right: 20px;
@@ -132,10 +134,8 @@ a {
     @include small {
       display: none;
     }
-  }  
+  }
 }
-
-
 
 .project-name {
   margin-top: 0;
@@ -215,7 +215,7 @@ a {
   h1 {
     border-bottom: 2px solid $ms-blue;
   }
-  
+
   h2 {
     border-bottom: 2px solid $ms-midgrey;
   }
@@ -231,7 +231,7 @@ a {
     color: $code-text-color;
     background-color: $code-bg-color;
     border-radius: 0.3rem;
-    font-size: 103%
+    font-size: 103%;
   }
 
   pre {
@@ -244,7 +244,7 @@ a {
     background-color: $code-bg-color;
     border: solid 2px $ms-blue;
     border-radius: 0.3rem;
-    
+
     > code {
       padding: 0;
       margin: 0;
@@ -387,7 +387,7 @@ a {
 }
 
 .site-footer-credits {
-  color: $body-text-color
+  color: $body-text-color;
 }
 
 /* ================================================= */
@@ -402,20 +402,22 @@ a {
   padding: 20px;
 }
 
-.btn-blue, .btn-green, .btn-grey {
+.btn-blue,
+.btn-green,
+.btn-grey {
   text-transform: capitalize;
   color: white;
   border-radius: 0.3rem;
   font-weight: 600;
   padding: 0.8rem;
   font-size: 105%;
-  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
   transition: background-color 0.25s;
   margin: 0.2em;
   display: inline-block;
   &:hover {
     text-decoration: none;
-    box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.75);
   }
 }
 .btn-blue {
@@ -444,4 +446,9 @@ h4 a {
 }
 h5 a {
   @extend .btn-green;
+}
+
+details {
+  cursor: pointer;
+  color: $ms-lightblue;
 }
